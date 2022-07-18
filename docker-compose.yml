@@ -16,7 +16,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./nginx/conf.d:/etc/nginx/conf.d
+     ## - ./nginx/conf.d:/etc/nginx/conf.d
       
   devops-be:
     image: artemsavchuk94/node-web-app2:latest 
