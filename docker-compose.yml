@@ -20,6 +20,9 @@ services:
       
   devops-be:
     image: artemsavchuk94/node-web-app2:latest 
+    ports:
+      - "3000:3000"
+
    
      
     
